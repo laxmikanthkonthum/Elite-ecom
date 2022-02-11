@@ -1,0 +1,34 @@
+@import url(/style.css);
+.heading{
+    background-color: var(--secondary-bg);
+    padding: 0.2rem;
+}
+.text-overlay{
+    text-align: center; 
+    right: 0;
+    left:0; 
+}
+
+.card,.card-image > img{
+    height: 10rem;
+}
+
+.category{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.banner-img{
+    padding: 1rem;
+    width: 40rem;
+    height: 20rem;
+}
+.arrow-icon{
+    font-size: x-large;
+}

@@ -1,0 +1,24 @@
+@import url("https://elite-ui.netlify.app/style.css");
+:root{
+    --ecom-bg: #2dd4bf;
+    --ecom-content-bg: #fecaca;
+}
+.nav-colored{
+    background-color: var(--ecom-bg) ;
+}
+body{
+    background-color: var(--secondary-bg) ;
+}
+main{
+    height: 100vh;
+}
+footer{
+    background-color: var(--ecom-bg);
+    position: fixed;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+}
+.nav-link{
+    justify-content: end;
+}
