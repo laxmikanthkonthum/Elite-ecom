@@ -5,10 +5,10 @@ body {
     grid-template-columns: 20% 80%;
     grid-template-areas:
         "nav-bar nav-bar"
-        "filter products-container"
-        "filter products-container"
-        "filter products-container"
-        "footer footer"
+        "filter-bar products-container"
+        "filter-bar products-container"
+        "filter-bar products-container"
+        "footer-bar footer"
 }
 
 .footer {
@@ -22,18 +22,22 @@ body {
 .nav-bar {
     grid-area: nav-bar;
 }
-
+.filter-bar{
+    grid-area: filter-bar;
+}
 .filter-col {
     margin-top: 2rem;
-    grid-area: filter;
     background-color: var(--secondary);
     padding: 1rem;
     height: max-content;
 }
-
+.filter-col>div {
+    padding: 1rem;
+}
 .filter-head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .actions {
@@ -47,12 +51,8 @@ body {
     padding: 1rem;
 }
 
-.btn {
+.actions > .btn {
     width: 100%;
-}
-
-.filter-col>div {
-    padding: 1rem;
 }
 
 .products-container {
