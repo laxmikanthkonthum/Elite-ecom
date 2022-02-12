@@ -48,3 +48,7 @@
     justify-content: space-between;
     padding: 0.5rem;
 }
+.footer{
+    position: fixed;
+    right: 0;
+}
