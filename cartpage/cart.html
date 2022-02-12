@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laxmikanth Konthum" />
+    <meta name="description" content="Elite-Ecom is a E-commerce website created using Elite-UI" />
+    <title>Cart</title>
+    <link href="cart.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar nav-colored top">
+
+        <a href="#"><img class="hero-logo hover-class" src="/src/hero-logo.png" alt="logo"></a>
+        <div class="nav-links">
+            <a class="link-plain hover-class" href="#">
+                <div class="badge-on-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge badge-red">5</span>
+                </div>
+            </a>
+            <a class="link-plain hover-class" href="#">
+                <div class="badge-on-icon">
+                    <i class="fas fa-heart"></i>
+                    <span class="badge badge-red">5</span>
+                </div>
+            </a>
+            <a class="link-plain hover-class" href="#"> Login/Sign-up</a>
+    </nav>
+    <main class="cart-container">
+        <div class="card horizontal-card">
+            <div class="main-container horizontal">
+                <div class="card-image horizontal-img">
+                    <img src="/src/products.jpg" alt="product">
+                </div>
+                <div class="sub-content">
+                    <header class="heading">Paneer Butter Masala</header>
+                    <p>299 <strike class="text-gray">598</strike></p>
+                    <p class="text-gray text-bold">50% Off</p>
+                    <p class="sub-text">Quantity
+                        <button><i class="fas fa-minus-circle"></i></button>
+                        <i class="far fa-square"></i>
+                        <button><i class="fas fa-plus-circle"></i></button>
+                    </p>
+                    <button class="btn secondary-btn">
+                        Remove from cart
+                    </button>
+                    <button class="btn secondary-btn wishlist-btn">
+                        Move to Wishlist
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="card text-only-card">
+            <div class="main-container">
+                <div class="price-details">
+                    <header class="heading text-bold">PRICE DETAILS</header><br>
+                    <hr>
+                    <div class="flex-bet">
+                        <p>Price (2 items)</p>
+                        <p>4999</p>
+                    </div>
+                    <div class="flex-bet">
+                        <p>Discount</p>
+                        <p>-1999</p>
+                    </div>
+                    <div class="flex-bet">
+                        <p>Delivery Charges</p>
+                        <p>499</p>
+                    </div>
+                    <hr>
+                    <div class="flex-bet text-bold">
+                        <p>TOTAL AMOUNT</p>
+                        <p>3499</p>
+                    </div>
+                    <hr>
+                    <br>
+                    <p>You will save 1999 on this order</p><br>
+                    <button class="btn primary-btn">
+                        Place Order
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
