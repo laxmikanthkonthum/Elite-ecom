@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <meta name="author" content="Laxmikanth Konthum" />
+    <meta name="description" content="Elite-Ecom is a E-commerce website created using Elite-UI" />
+    <link href="products.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar nav-colored top">
+
+        <a href="#"><img class="hero-logo hover-class" src="/src/hero-logo.png" alt="logo"></a>
+        <div class="nav-links">
+            <a class="link-plain hover-class" href="#">
+                <div class="badge-on-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge badge-red">5</span>
+                </div>
+            </a>
+            <a class="link-plain hover-class" href="#">
+                <div class="badge-on-icon">
+                    <i class="fas fa-heart"></i>
+                    <span class="badge badge-red">5</span>
+                </div>
+            </a>
+            <a class="link-plain hover-class" href="#"> Login/Sign-up</a>
+    </nav>
+    <aside class="filter-bar">
+        <form class = "filter-col">
+        <div class="filter-head">
+            <p class="text-black">Filters</p>
+            <input type = "reset" class="btn btn-primary" value = "Clear">
+        </div>
+        <div class="filter-slider">
+            <p class="text-black margin-btm">Price</p>
+            <input type="range" min="10" max="10000" step="100" class="slider">
+            <div class="slider-val"></div>
+        </div>
+        <div class="filter-category">
+            <p class="text-black margin-btm">Category</p>
+            <input type="checkbox" id="veg" class="category" value="veg">
+            <label for="veg"> Vegetarian </label> <br>
+            <input type="checkbox" id="non-veg" class="category" value="non-veg">
+            <label for="non-veg"> Non-Vegetarian </label> <br>
+            <input type="checkbox" id="desserts" class="category" value="desserts">
+            <label for="desserts"> Desserts </label>
+        </div>
+        <div class="filter-rating">
+            <p class="text-black margin-btm">Rating</p>
+            <input type="radio" id="4-star" class="rating" name="rating">
+            <label for="veg"> 4 stars & above </label> <br>
+            <input type="radio" id="3-star" class="rating" name="rating">
+            <label for="non-veg"> 3 stars & above </label> <br>
+            <input type="radio" id="2-star" class="rating" name="rating">
+            <label for="rating"> 2 stars & above </label>
+        </div>
+        <div class="filter-sort">
+            <p class="text-black margin-btm">Sort by Price</p>
+            <input type="radio" id="high-low" class="sort" name="sort">
+            <label for="high-low"> high to low </label> <br>
+            <input type="radio" id="low-high" class="sort" name="sort">
+            <label for="low-high"> low to high </label> <br>
+        </div>
+    </form>
+    </aside>
+    <main class="products-container">
+        <div class="card card-with-badges">
+            <div class="main-container hover-class">
+                <div class="card-image">
+                    <img src="/src/products.jpg" alt="card">
+                </div>
+                <div class="sub-content">
+                    <header class="heading">Paneer Butter Masala</header>
+                    <p class="sub-text">299 /- <p>
+                </div>
+                <p class="text-gray">Made with the best paneer </p>
+            </div>
+            <div class="actions">
+                <button class="btn primary-btn btn-round">
+                    Add to Cart<i class="fas fa-shopping-cart"></i>
+                </button>
+                <button class="btn secondary-btn btn-round">
+                    Add to Wishlist<i class="fas fa-heart"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card card-with-badges">
+            <div class="main-container hover-class">
+                <div class="card-image">
+                    <img src="/src/products.jpg" alt="card">
+                </div>
+                <div class="sub-content">
+                    <header class="heading">Paneer Butter Masala</header>
+                    <p class="sub-text">299 /- <p>
+                </div>
+                <p class="text-gray">Made with the best paneer </p>
+            </div>
+            <div class="actions">
+                <button class="btn primary-btn btn-round">
+                    Add to Cart<i class="fas fa-shopping-cart"></i>
+                </button>
+                <button class="btn secondary-btn btn-round">
+                    Add to Wishlist<i class="fas fa-heart"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card card-with-badges">
+            <div class="main-container hover-class">
+                <div class="card-image">
+                    <img src="/src/products.jpg" alt="card">
+                </div>
+                <div class="sub-content">
+                    <header class="heading">Paneer Butter Masala</header>
+                    <p class="sub-text">299 /- <p>
+                </div>
+                <p class="text-gray">Made with the best paneer </p>
+            </div>
+            <div class="actions">
+                <button class="btn primary-btn btn-round">
+                    Add to Cart<i class="fas fa-shopping-cart"></i>
+                </button>
+                <button class="btn secondary-btn btn-round">
+                    Add to Wishlist<i class="fas fa-heart"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card card-with-badges">
+            <div class="main-container hover-class">
+                <div class="card-image">
+                    <img src="/src/products.jpg" alt="card" class="">
+                </div>
+                <div class="sub-content">
+                    <header class="heading">Paneer Butter Masala</header>
+                    <p class="sub-text">299 /- <p>
+                </div>
+                <p class="text-gray">Made with the best paneer </p>
+            </div>
+            <div class="actions">
+                <button class="btn primary-btn btn-round">
+                    Add to Cart<i class="fas fa-shopping-cart"></i>
+                </button>
+                <button class="btn secondary-btn btn-round">
+                    Add to Wishlist<i class="fas fa-heart"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card card-with-badges">
+            <div class="main-container hover-class">
+                <div class="card-image">
+                    <img src="/src/products.jpg" alt="card" class="">
+                </div>
+                <div class="sub-content">
+                    <header class="heading">Paneer Butter Masala</header>
+                    <p class="sub-text">299 /- <p>
+                </div>
+                <p class="text-gray">Made with the best paneer </p>
+            </div>
+            <div class="actions">
+                <button class="btn primary-btn btn-round">
+                    Add to Cart<i class="fas fa-shopping-cart"></i>
+                </button>
+                <button class="btn secondary-btn btn-round">
+                    Add to Wishlist<i class="fas fa-heart"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer bottom-left">
+        <p>A E-com site for food lovers built using <a class="link-plain text-bold"
+                href="https://elite-ui.netlify.app/">Elite-UI</a></p>
+    </footer>
+    <script src="product.js"></script>
+</body>
+
+</html>

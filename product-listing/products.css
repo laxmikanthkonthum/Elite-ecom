@@ -1,0 +1,63 @@
+@import url(/style.css);
+
+body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas:
+        "nav-bar nav-bar"
+        "filter-bar products-container"
+        "filter-bar products-container"
+        "filter-bar products-container"
+        "footer footer"
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.margin-btm {
+    margin-bottom: 1rem;
+}
+
+.nav-bar {
+    grid-area: nav-bar;
+}
+.filter-bar{
+    grid-area: filter-bar;
+}
+.filter-col {
+    margin-top: 2rem;
+    background-color: var(--secondary);
+    padding: 1rem;
+    height: max-content;
+}
+.filter-col>div {
+    padding: 1rem;
+}
+.filter-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.actions > .btn {
+    width: 100%;
+}
+
+.products-container {
+    margin-top: 1rem;
+    grid-area: products-container;
+    display: flex;
+    flex-wrap: wrap;
+}
