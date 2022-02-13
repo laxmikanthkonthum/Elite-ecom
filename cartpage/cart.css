@@ -15,7 +15,7 @@
 .card {
     width: fit-content;
     margin: 1rem;
-    background-color: #FFFFFF;
+    background-color: var(--white-card);
 }
 
 .sub-content {
@@ -43,7 +43,7 @@
     width: 20rem
 }
 
-.flex-bet {
+.flex-btw {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
