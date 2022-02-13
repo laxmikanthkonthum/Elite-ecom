@@ -1,0 +1,54 @@
+@import url(/style.css);
+
+
+.cart-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-image>img {
+    height: 100%;
+    width: 15rem;
+}
+
+.card {
+    width: fit-content;
+    margin: 1rem;
+    background-color: var(--white-card);
+}
+
+.sub-content {
+    padding: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.sub-content>* {
+    padding: 0.5rem;
+}
+
+.wishlist-btn {
+    background-color: var(--secondary-bg);
+}
+
+.price-details {
+    padding: 1rem;
+    width: 20rem
+}
+
+.flex-btw {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.footer{
+    position: fixed;
+    right: 0;
+}
