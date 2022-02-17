@@ -1,0 +1,16 @@
+@import url('/style.css');
+
+.actions > .btn {
+    width: 100%;
+}
+
+.card{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
