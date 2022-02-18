@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laxmikanth Konthum" />
+    <meta name="description" content="Elite-Ecom is a E-commerce website created using Elite-UI" />
+    <title>Auth-Page</title>
+    <link href="auth.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar nav-colored top">
+
+        <a href="/index.html"><img class="hero-logo hover-class" src="/src/hero-logo.png" alt="logo"></a>
+        <div class="nav-links">
+            <a class="link-plain hover-class" href="/cartpage/cart.html">
+                <div class="badge-on-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge badge-red">5</span>
+                </div>
+            </a>
+            <a class="link-plain hover-class" href="/wishlist-page/wishlist.html">
+                <div class="badge-on-icon">
+                    <i class="fas fa-heart"></i>
+                    <span class="badge badge-red">5</span>
+                </div>
+            </a>
+            <a class="link-plain hover-class" href="#"> Login/Sign-up</a>
+    </nav>
+    <main class="auth-container">
+        <section class="login-container">
+            <form class="signup-box">
+                <h4 class="text-centered">Login</h4><br>
+                <label for="email">Email Address: </label><br>
+                <input type="email" id="email" name="sign-up" size="24" autocomplete="email"><br><br>
+                <label for="password">Password: </label><br>
+                <input type="password" id="password" name="sign-up" size="24" minlength="8" maxlength="16"><br><br>
+                <div class="alert alert-border alert-warning">
+                    <i class="far fa-check-circle"></i> Login Success!
+                </div>
+                <div class="signup-btns">
+                    <input type="submit" value="Sign-in" class="btn primary-btn">
+                    <button class="btn secondary-btn">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+
+            <p>Don't Have an Account?</p>
+            <button class="btn primary-btn" id="signup-btn">
+                Create Account
+            </button>
+        </section>
+        <section class="signup-container">
+            <form class="signup-box signup-hide">
+                <label for="fullname">Full Name: </label><br>
+                <input type="text" id="fullname" name="sign-up" size="24" autocomplete="name" required><br><br>
+                <label for="email">Email Address: </label><br>
+                <input type="email" id="email" name="sign-up" size="24" autocomplete="email" required><br><br>
+                <label for="password">Create Password: </label><br>
+                <input type="password" id="password" name="sign-up" size="24" minlength="8" maxlength="16"
+                    required><br><br>
+                <input type="checkbox" id="tnc" class="sign-up" required>
+                <label for="tnc">I agree to the <a href="#">terms</a></label><br> <br>
+                <div class="alert alert-border">
+                    <i class="far fa-check-circle"></i> Signup Success!
+                </div>
+                <div class="signup-btns">
+                    <input type="submit" value="Submit" class="btn primary-btn">
+                    <button class="btn secondary-btn">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer bottom-left">
+        <p>A E-com site for food lovers built using <a class="link-plain text-bold"
+                href="https://elite-ui.netlify.app/">Elite-UI</a></p>
+    </footer>
+
+    </main>
+    <script src="auth.js"></script>
+</body>
+
+</html>
