@@ -19,3 +19,9 @@ body {
     text-align: center;
     padding: 1rem;
 }
+
+@media screen and (max-width: 480px){
+.hero-logo{
+    width:4rem;
+}
+}

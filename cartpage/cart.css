@@ -5,11 +5,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    min-height: 100%;
 }
 
 .card-image>img {
     height: 100%;
-    width: 15rem;
+    width: 100%;
 }
 
 .card {
@@ -51,4 +54,10 @@
 .footer{
     position: fixed;
     right: 0;
+}
+
+@media screen and (max-width: 940px){
+    .footer{
+        position:unset;
+    }
 }

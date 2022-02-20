@@ -18,6 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 1rem;
 }
 .banner{
     display: flex;
@@ -26,8 +27,8 @@
 }
 .banner-img{
     padding: 1rem;
-    width: 40rem;
-    height: 20rem;
+    width: 100%;
+    height: auto;
 }
 .arrow-icon{
     font-size: x-large;
