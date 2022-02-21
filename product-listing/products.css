@@ -2,7 +2,6 @@
 
 body {
     display: grid;
-    /* grid-template-columns: 20% 80%; */
     grid-template-areas:
         "nav-bar nav-bar"
         "filter-bar products-container"
