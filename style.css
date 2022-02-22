@@ -20,8 +20,12 @@ body {
     padding: 1rem;
 }
 
-@media screen and (max-width: 480px){
-.hero-logo{
-    width:4rem;
+@media screen and (max-width: 480px) {
+    .hero-logo {
+        width: 4rem;
+    }
 }
+
+.page-title {
+    padding-top: 1rem;
 }
